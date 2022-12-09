@@ -125,8 +125,20 @@ main {
 
 .testimonials-customers {
     border: 1px solid grey;
+    margin: 50px;
+    padding: 50px;
 }
 
+.testimonials-customers2 {
+    border: 1px solid grey;
+    margin: 50px;
+    padding: 60px;
+}
+
+/*WERKT NIET*/
+.customer1 {
+    text-align: center;
+}
 /*///////////// 3.3 Support /////////////*/
 
 .callcenter-image {
@@ -160,6 +172,7 @@ div {
     border-radius: 15px 15px 15px 15px;
     padding: 10px;
     margin: 1px;
+    /*!*text-align: left;*! WERKT NIET*/
 
 }
 
@@ -170,6 +183,7 @@ details {
     border: transparent;
     border-radius: 4px;
     padding: .5em .5em 0;
+    text-align: left;
 
 }
 

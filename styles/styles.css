@@ -70,11 +70,20 @@ p {
 
 
 
+.header-section {
+    position: relative;
+    height: 300px;
+
+}
+
+
 header {
     background: url('../assets/images/mountains.jpg') no-repeat center local;
     background-size: cover;
-    text-align: center;
-    /*!*max-width: 1000px;*! --???*/
+    margin:  0 auto;
+    padding: 15%;
+    position: relative;
+
 }
 
 section {
@@ -82,12 +91,6 @@ section {
 
 }
 
-
-
-header {
-    margin: 0 auto;
-    padding: 15%;
-}
 
 .url-field {
     border-radius: 15px 0px 0px 15px;
@@ -105,10 +108,13 @@ header {
     background-color: black;
     padding: 5px;
     color: white;
+}
+
+
 
 
 /*to do : header text naar boven + verkleinen button*/
-}
+
 
 /*////////!*3.15 MAIN*!*!///////*/
 
@@ -123,46 +129,90 @@ main {
 
 /*///////////// 3.2 Testimonial /////////////*/
 
-.testimonials-customers {
-    border: 1px solid grey;
-    margin: 50px;
+.testimonial1 {
+    border: 1px #899CA0;
+    margin: 60px;
     padding: 50px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 4px 12px;
+    border-radius: 10px 10px 10px 10px;
+    position: relative;
+}
+
+.testimonials-customers1 {
+    position: relative;
+    top: -10px;
+
+}
+
+
+
+.jane-pic {
+    position: relative;
+    left: -190px;
+    width: 30px;
+    top: 10px;
+}
+
+.john-pic {
+    position: relative;
+    left: -340px;
+    width: 35px;
+    top: -120px;
+
+}
+
+.customer-1 {
+    position: relative;
+    left: -220px;
+    top: -20px;
+}
+
+.customer2 {
+    position: relative;
+    top: -90px;
+    left: -235px;
 }
 
 .testimonials-customers2 {
-    border: 1px solid grey;
+    border: 1px #899CA0;
     margin: 50px;
     padding: 60px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 4px 12px;
+    border-radius: 10px 10px 10px 10px;
+
 }
 
-/*WERKT NIET*/
-.customer1 {
-    text-align: center;
-}
-/*///////////// 3.3 Support /////////////*/
 
-.callcenter-image {
-    border-radius: 30px;
-}
+
+/*.callcenter-image {*/
+/*    border-radius: 30px;*/
+/*    margin: 10%;*/
+
+
+
 .text-support {
     text-align: left;
     margin: 20px;
+    left: -190px;
+    position: relative;
 }
 
 .link-support {
-    color: grey;
-    text-underline: grey;
+    color: #899CA0;
+    text-underline: #899CA0;
 
 }
 
 a:hover {
    text-decoration: none;
 }
-/*ERROR MET HEADER ALS AANZET*/
 
-div {
+.callcenter-image {
     display: flex;
     justify-content: center;
+
+
+
 
 }
 
@@ -172,18 +222,28 @@ div {
     border-radius: 15px 15px 15px 15px;
     padding: 10px;
     margin: 1px;
-    /*!*text-align: left;*! WERKT NIET*/
+    left: -610px;
+    position: relative;
+
 
 }
 
 
 /*///////////// 3.4 Faq /////////////*/
 
+
+.question-list {
+    position:absolute;
+    left: 275px;
+}
+
 details {
     border: transparent;
     border-radius: 4px;
     padding: .5em .5em 0;
     text-align: left;
+
+
 
 }
 
@@ -200,6 +260,9 @@ details[open] {
     padding: .5em;
     background-color: grey;
     border-radius: 0px 0px 15px 15px;
+    /*border-radius: 15px 15px 15px 15px;*/
+    /*overflow: hidden;*/
+
 }
 
 details[open] summary {
@@ -211,9 +274,17 @@ details[open] summary {
 
 
 /*///////////// 3.5 Footer /////////////*/
+footer {
+    position: relative;
+}
+
 
 .footer-copyright {
     background-color: black;
     color: white;
     padding: 30px;
+    position: absolute;
+    bottom: -300px;
+    width: 2000px;
+
 }
